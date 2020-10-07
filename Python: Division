@@ -1,0 +1,8 @@
+from __future__ import division
+
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    print(a//b)     #it gives answer without decimal points i.e  Whole number
+    print(a/b)       #it gives answer with decimal points i.e  Integers
+
