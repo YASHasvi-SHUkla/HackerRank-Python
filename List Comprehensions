@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())                #taking inputs from the user 
+    z = int(input())
+    n = int(input())
+    titan = []          # creating an empty list
+    yo = []             # creating an empty list
+    for x in range(x + 1):
+        for y in range(y + 1):
+            for z in range(z + 1):
+                if x + y + z != n:      #checking if sum of x, y, and z is not equal to n
+                    titan = [x,y,z]
+                    yo.append(titan)    #addind/joining elements 
+print(yo)                     
