@@ -1,0 +1,20 @@
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':   #statement is used to check that this is the main file and not being called from outside
+    n = int(raw_input().strip())
+    if n%2!=0:  #checks if number is odd
+        print("Weird")
+    elif n>=2 and n<=5:   #checks if number is greater and equal to 2 and less than equal to 5
+        print("Not Weird")
+    elif n>=6 and n<=20:  #checks if number is greater and equal to 6 and less than equal to 20
+        print("Weird")
+    else:                   #otherwise it prints Not Weird
+        print("Not Weird")            
