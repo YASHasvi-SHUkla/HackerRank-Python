@@ -1,0 +1,7 @@
+def is_leap(year):
+    leap = False
+    
+    
+    return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
+  # first it checks for century years, for checking century year as leap year we divide the year by 400
+    # for checking normal years, we divide the year by 4
