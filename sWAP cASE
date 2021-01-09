@@ -1,0 +1,18 @@
+def swap_case(s):
+
+    sasuke = []
+    uchiha = ""
+    for i in range(0,len(s)):
+        if s[i].islower() == True:        # checking if the letter is in lower case
+            sasuke.append(s[i].upper())    # adding the converted letter into list(sasuke)
+
+        else:
+            sasuke.append(s[i].lower())       # control if come here if letter is not in lower case
+
+    return (uchiha.join(sasuke))        # using JOIN for converting list into string return is necessary because of the type of function call
+
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
