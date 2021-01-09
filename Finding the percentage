@@ -1,0 +1,15 @@
+if __name__ == '__main__':
+    n = int(raw_input())
+    student_marks = {}
+    for i in range(n):
+        line = raw_input().split()
+        name, scores = line[0], line[1:]
+        scores = map(float, scores)
+        student_marks[name] = scores
+    query_name = raw_input()
+    
+    zoro = student_marks[query_name] #this will store the marks of the student according  to the given query name
+                                    
+    xo = (sum(zoro))/3      # this will store the average of the marks
+    
+    print("%.2f"% xo) # this statement will trim the digits after the decimal to two  places  "%.3f"%   will trim to three places
