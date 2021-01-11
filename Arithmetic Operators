@@ -1,4 +1,4 @@
-
+#!/bin/python
 if __name__ == '__main__':
     a = int(raw_input())    #for taking input from user
     b = int(raw_input())    #for taking input from user
