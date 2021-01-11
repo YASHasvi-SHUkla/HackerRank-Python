@@ -1,3 +1,4 @@
+#!/bin/python
 def swap_case(s):
 
     sasuke = []
